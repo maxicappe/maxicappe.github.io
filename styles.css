@@ -38,8 +38,8 @@
 .con-dias{
 	background: #;
 	display: flex;
-	height: 25vh;
-	width: 80vw;
+	height: 20vh;
+	width: 70vw;
 	margin: 3.5rem auto;
 	justify-content: space-around;
 }
@@ -86,6 +86,28 @@
 	width: 100%;
 	left: 0;
 	bottom: -10px;
+}
+
+
+
+/*button*/
+
+.con-button{
+	background-color: #;
+	margin: 0 auto 5rem auto;
+	display: flex;
+	justify-content: flex-end;
+	width: 55vw;
+}
+
+.btn{
+	border: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.25rem;
+}
+
+.btn:first-child{
+	margin-right: 1rem;
 }
 
 
