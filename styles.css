@@ -1,0 +1,116 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+}
+
+
+.con-title{
+	display: flex;
+	margin: 1rem 35%;
+	width: 100vw;
+	height: 5rem;
+	font-size: 1.3rem;
+}
+
+.con-title h1{
+	margin: 0.8rem;
+}
+
+
+.con-title h1:first-child{
+	transition: all .2s;
+}
+.con-title h1:first-child:hover{
+	color: lightgreen;
+}
+.con-title h1:last-child{
+	transition: all .2s;
+}
+.con-title h1:last-child:hover{
+	color: red;
+}
+
+
+/*dias*/
+
+.con-dias{
+	background: #;
+	display: flex;
+	height: 25vh;
+	width: 80vw;
+	margin: 3.5rem auto;
+	justify-content: space-around;
+}
+
+.div-dia{
+	width: auto;
+	text-align: center;
+	font-size: 1.3rem;
+}
+
+.div-dia h2{
+	transition: all .2s;
+}
+
+.div-dia h2:hover{
+	color: greenyellow;
+	text-decoration: underline;
+}
+
+
+
+/*Names*/
+
+.div-name-title{
+	width: 59vw;
+	margin: auto;
+	font-size: 1.5rem;
+	color: #676767;
+	text-decoration: underline;
+}
+
+
+
+/*responsive*/
+
+@media (max-width: 768px){
+
+.con-title{
+	width: 97vw;
+	margin: 2rem 0 4rem 0;
+	justify-content: center;
+	font-size: .9rem;
+	color: #000;
+}
+.con-title h1:first-child{
+	color: lightgreen;
+}
+.con-title h1:last-child{
+	color: red;
+}
+
+
+.con-dias{
+	background: #;
+	display: flex;
+	height: auto;
+	width: 95vw;
+	margin: 2rem auto 7rem auto;
+	justify-content: space-between;
+}
+
+
+.div-dia{
+	font-size: 1.1rem;
+}
+
+
+.div-name-title{
+	width: 95vw;
+	font-size: 1.2rem;
+	color: #676767;
+	text-decoration: none;
+	
+}
+
+}
