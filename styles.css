@@ -104,6 +104,17 @@
 	border: none;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.25rem;
+	transition: all .15s;
+}
+
+.btn:hover{
+	box-shadow: -2px 2px 2px 0px;
+}
+.btn:first-child:focus{
+	color: red;
+}
+.btn:last-child:focus{
+	color: #00cc00;
 }
 
 .btn:first-child{
@@ -156,4 +167,9 @@
 	
 }
 
+.btn:hover{
+	box-shadow: none;
 }
+
+}
+
