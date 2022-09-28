@@ -163,6 +163,13 @@ ul{
 	font-size: 1.1rem;
 }
 
+.div-dia:hover{
+	background-color: #;
+	color: #;
+	box-shadow: none;
+	margin: none;
+}
+
 
 .div-name-title{
 	width: 95vw;
@@ -172,9 +179,41 @@ ul{
 	
 }
 
+
+
+.con-button{
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	margin: -2rem auto 6rem auto;
+}
+
+.btn{
+	height: 3rem;
+	border-radius: 5%;
+}
+
+#btn-add-1{
+	margin-bottom: 2rem;
+}
+
+#btn-add-2{
+	margin-bottom: 2rem;
+}
+
+
+
+}
+
 .btn:hover{
 	box-shadow: none;
 }
+
+
+
+
+
+
 
 }
 
