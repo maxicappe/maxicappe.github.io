@@ -40,7 +40,7 @@
 	display: flex;
 	height: 20vh;
 	width: 70vw;
-	margin: 3.5rem auto;
+	margin: 2rem auto 4rem auto;
 	justify-content: space-around;
 }
 
@@ -96,8 +96,8 @@
 	background-color: #;
 	margin: 0 auto 5rem auto;
 	display: flex;
-	justify-content: flex-end;
-	width: 55vw;
+	justify-content: center;
+	width: 100vw;
 }
 
 .btn{
@@ -105,6 +105,7 @@
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.25rem;
 	transition: all .15s;
+	margin-right: 1.5rem;
 }
 
 .btn:hover{
@@ -117,8 +118,12 @@
 	color: #00cc00;
 }
 
-.btn:first-child{
-	margin-right: 1rem;
+
+ul{
+	list-style: none;
+	text-align: center;
+	margin: .8rem 0px 0px -2.3rem;
+	font-size: 1.4rem;
 }
 
 
@@ -149,7 +154,7 @@
 	display: flex;
 	height: auto;
 	width: 95vw;
-	margin: 2rem auto 7rem auto;
+	margin: 2rem auto 6rem auto;
 	justify-content: space-between;
 }
 
